@@ -9,6 +9,7 @@ body {
     min-width: 414px;
     margin: 0 auto;
     background-color: rgba(122, 191, 191, .5);
+    width: 90px;
 }
 
 main {
@@ -111,7 +112,7 @@ dd {
 }
 
 .directions ol {
-    padding: 15px;
+    padding: 25px;
 }
 
 .directions li {
