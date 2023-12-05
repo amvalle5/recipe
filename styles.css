@@ -102,3 +102,21 @@ dd {
     margin-bottom: 10px;
 }
 
+.ingredients h3 {
+    text-align: center;
+}
+
+.directions {
+    margin: 0;
+}
+
+.directions ol {
+    padding: 15px;
+}
+
+.directions li {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 25px;
+}
+
