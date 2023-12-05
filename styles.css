@@ -53,3 +53,14 @@ h3 {
 nav a, nav span, menu li, #social li, footer p {
     font-size: 20px;
 }
+
+h1, h2 {
+    text-align: center;
+    margin: 10px auto;
+}
+
+p, dd, .ingredients li, .directions li nav, input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
