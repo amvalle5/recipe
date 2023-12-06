@@ -173,3 +173,38 @@ article img {
 #search h3 {
     visibility: hidden;
 }
+
+footer {
+    background-color: #F2F2F2;
+    padding: 10px 0 5px;
+}
+
+#social ul {
+    display: grid;
+    list-style-type: none;
+    color: #EB5428;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+#social li {
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
+    width: 55px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+footer img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+footer p {
+    text-align: center;
+    padding: 5px;
+}
