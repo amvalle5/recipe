@@ -121,3 +121,43 @@ dd {
     line-height: 25px;
 }
 
+aside {
+    background-color: #7ABFBF;
+    padding: 5px 0;
+    width: auto; 
+}
+
+aside h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+aside .dishes {
+    display: grid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+aside article {
+    display: flex;
+    height: auto;
+    grid-template-columns: 1.2fr 3fr ;
+    grid-template-rows: 35px auto auto;
+    margin: 10px;
+    grid-gap: 10px;
+}
+
+article p, .stars {
+    margin: 0;
+    grid-column: 2;
+}
+
+.stars p {
+    font-weight: 700px;
+}
+
+article img {
+    display: flex;
+    width: 80%;
+    height: auto;
+}
