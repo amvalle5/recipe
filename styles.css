@@ -161,3 +161,15 @@ article img {
     width: 80%;
     height: auto;
 }
+
+#dropdown h2 {
+    visibility: hidden;
+}
+
+#social h3 {
+    visibility: hidden;
+}
+
+#search h3 {
+    visibility: hidden;
+}
