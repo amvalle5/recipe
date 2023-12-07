@@ -65,6 +65,7 @@ p, dd, .ingredients li, .directions li nav, input {
     font-size: 16px;
 }
 
+/* banner */
 .banner {
     width: 100%;
 }
@@ -121,6 +122,7 @@ dd {
     line-height: 25px;
 }
 
+/* aside */
 aside {
     background-color: #7ABFBF;
     padding: 5px 0;
@@ -162,6 +164,8 @@ article img {
     height: auto;
 }
 
+/* headings */
+
 #dropdown h2 {
     visibility: hidden;
 }
@@ -174,6 +178,7 @@ article img {
     visibility: hidden;
 }
 
+/* footer */
 footer {
     background-color: #F2F2F2;
     padding: 10px 0 5px;
@@ -207,4 +212,17 @@ footer img {
 footer p {
     text-align: center;
     padding: 5px;
+}
+
+/* dropdown */
+#dropdown {
+    display: grid;
+    grid-template-columns: auto;
+    position: fixed;
+    background-color: #F2F2F2;
+    top: 0;
+    z-index: 1;
+    min-width: 414px;
+    width: 90px;
+    min-height: 84px;
 }
