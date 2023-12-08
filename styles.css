@@ -367,3 +367,97 @@ button svg {
     width: 200px;
     border: 3px solid #EB5428;
 }
+
+/* media queries */
+@media screen and (min-width: 768px) {
+    body, nav ul, .banner, menu {
+        width: 768px;
+    }
+
+    .home {
+        left: 0;
+        width: 70px;
+        height: auto;
+        padding: 5px;
+    }
+    #dropdown {
+        width: 768px;
+        grid-template-rows: 70px 100px;
+    }
+    #search {
+        z-index: 3;
+    }
+    .searchbar {
+        position: fixed;
+        right: 70px;
+        left: 270px;
+        top: 20px;
+    }       
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        overflow: visible;
+        margin-top: 5px;
+    }
+    nav img {
+        display: block;
+        width: 50%;
+        height: auto;
+    }       
+    .items {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;    
+        grid-row: 1;
+    }   
+    label {
+        display: none; 
+    }   
+    h1 {
+        text-align: left;
+        margin-left: 20px;
+    }
+    h2 {
+        margin-top: 10px;
+    }
+    menu {
+        background-color: rgba(242, 242, 242, 0.561);
+        position: absolute;
+        padding-top: 10px;
+    }
+    dl {
+        justify-content: center;
+        display: flex;;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }   
+    .sidebyside {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .directions ol {
+        padding-top: 0;
+    }   
+    .dishes {
+        grid-template-columns: 1fr 1fr;
+    }
+    .dishes img {
+        width: 100%;
+    }   
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-right: 20px;
+    }
+          
+}
+
+
+
+
+
+
+
+
