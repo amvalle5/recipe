@@ -65,6 +65,10 @@ p, dd, .ingredients li, .directions li nav, input {
     font-size: 16px;
 }
 
+p, ul, ol, dl {
+    margin-left: 10px;
+}
+
 /* banner */
 .banner {
     width: 100%;
