@@ -314,6 +314,10 @@ input:checked + label span svg {
     color: #000000;
 }
 
+.signin svg {
+    stroke: #EB5428;
+}
+
 nav ul {
     text-align: center;
     list-style: none;
@@ -324,6 +328,7 @@ nav ul {
     transition: all 2.5s ease;
     background-color: #F2F2F2;
     grid-column: 1/4;
+    margin-top: 28px;
 }
 
 #search {
