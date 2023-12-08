@@ -191,7 +191,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 15px;
     padding-bottom: 10px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 #social li {
@@ -219,7 +219,7 @@ footer p {
     display: grid;
     grid-template-columns: auto;
     position: fixed;
-    background-color: #F2F2F2;
+    background-color: #FFFFFF;
     top: 0;
     z-index: 1;
     min-width: 414px;
@@ -280,14 +280,13 @@ input:checked + label span svg {
     justify-items: center;
     font-size: 20px;
     border-radius: 15%;
-    margin-left: 10px;
     width: 10vw;
     margin-left: 10px;
     margin-top: 5px;
 }
 
 .menu-icon span:hover, .signin:hover {
-    transform: scale(1.1,1.1); 
+    transform: scale(1.1, 1.1); 
 }
 
 .home {
