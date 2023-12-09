@@ -437,6 +437,9 @@ button svg {
         display: grid;
         grid-template-columns: 40% 60%;
     }
+    .ingredients ul {
+        margin-left: 30px;
+    }
     .directions ol {
         padding-top: 0;
     }   
