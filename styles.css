@@ -222,7 +222,7 @@ footer p {
 #dropdown {
     display: grid;
     grid-template-columns: auto;
-    position: fixed;
+    position: absolute;
     background-color: #FFFFFF;
     top: 0;
     z-index: 1;
@@ -345,7 +345,7 @@ nav ul {
 
 .searchbar {
     display: flex;
-    position: fixed;
+    position: absolute;
     top: 120px;
     right: 110px;
 }
@@ -388,7 +388,7 @@ button svg {
         z-index: 3;
     }
     .searchbar {
-        position: fixed;
+        position: absolute;
         right: 70px;
         left: 270px;
         top: 20px;
