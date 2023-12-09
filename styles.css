@@ -389,8 +389,7 @@ button svg {
     }
     .searchbar {
         position: absolute;
-        right: 70px;
-        left: 270px;
+        right: 180px;
         top: 20px;
     }       
     nav ul {
