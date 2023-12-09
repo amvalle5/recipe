@@ -296,12 +296,12 @@ input:checked + label span svg {
 .home {
     display: flex;
     top: 0;
-    left: 20vw;
-    width: 52vw;
+    left: 35vw;
+    width: 32vw;
     height: 84px;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: fixed;
     color: #F2F2F2;
     background-color: #EB5428;
 }
@@ -345,9 +345,9 @@ nav ul {
 
 .searchbar {
     display: flex;
-    position: inherit;
+    position: fixed;
     top: 120px;
-    right: 100px;
+    right: 170px;
 }
 
 button {
