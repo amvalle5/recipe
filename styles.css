@@ -301,7 +301,7 @@ input:checked + label span svg {
     height: 84px;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: absolute;
     color: #F2F2F2;
     background-color: #EB5428;
 }
