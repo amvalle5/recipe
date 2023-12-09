@@ -297,7 +297,7 @@ input:checked + label span svg {
     display: flex;
     top: 0;
     left: 35vw;
-    width: 32vw;
+    width: 35vw;
     height: 84px;
     justify-content: center;
     align-items: center;
@@ -347,7 +347,7 @@ nav ul {
     display: flex;
     position: fixed;
     top: 120px;
-    right: 170px;
+    right: 110px;
 }
 
 button {
