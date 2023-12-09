@@ -296,8 +296,8 @@ input:checked + label span svg {
 .home {
     display: flex;
     top: 0;
-    left: 35vw;
-    width: 35vw;
+    left: 17vw;
+    width: 40vw;
     height: 84px;
     justify-content: center;
     align-items: center;
