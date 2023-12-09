@@ -347,7 +347,7 @@ nav ul {
     display: flex;
     position: inherit;
     top: 120px;
-    left: 30px;
+    right: 100px;
 }
 
 button {
@@ -364,7 +364,7 @@ button svg {
 
 .searchbar input {
     height: inherit;
-    width: 350px;
+    width: 300px;
     border: 3px solid #EB5428;
 }
 
